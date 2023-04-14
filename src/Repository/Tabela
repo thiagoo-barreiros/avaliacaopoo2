@@ -1,0 +1,13 @@
+CREATE TABLE `aluno` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) DEFAULT NULL,
+  `endereco` varchar(45) DEFAULT NULL,
+  `Telefone` varchar(45) DEFAULT NULL,
+  `cpf` varchar(45) DEFAULT NULL,
+  `tiposanguineo` varchar(45) DEFAULT NULL,
+  `contatoemergencia` varchar(45) DEFAULT NULL,
+  `telefoneemergencia` varchar(45) DEFAULT NULL,
+  `curso` varchar(45) NOT NULL,
+  `fatorrh` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb3;
